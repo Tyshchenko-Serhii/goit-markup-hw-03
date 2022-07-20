@@ -9,6 +9,7 @@
   --main-btn-hover: #188ce8;
   --hero-background-color: #2f303a;
   --border-color: #eeeeee;
+  --header-border #ECECEC;
 }
 
 .list {
@@ -79,6 +80,7 @@ img {
 .page-header-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid var(--header-border);
 }
 
 .nav-section {
@@ -233,11 +235,16 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-top: 10px;
 }
 
 /* =============== /FEATURES SECTION =============== */
 
 /* =============== WORK SECTION =============== */
+
+.work-section {
+  padding-top: 0;
+}
 
 .section-list {
   display: flex;
@@ -401,9 +408,6 @@ img {
 
 .address {
   font-style: normal;
-}
-
-.adress-list {
   margin-top: 20px;
 }
 
